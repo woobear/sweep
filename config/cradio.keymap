@@ -9,10 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT 0
-#define CM   1
-#define LOWER   2
-#define RAISE   3
-#define ML   4
+#define LOWER   1
+#define RAISE   2
+#define ML   3
 
 &lt { quick_tap_ms = <200>; };
 
