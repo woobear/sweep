@@ -14,6 +14,10 @@
 #define ML   3
 
 &lt { quick_tap_ms = <200>; };
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
+};
+
 
 / { 
 
