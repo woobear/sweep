@@ -69,9 +69,9 @@ keymap {
         default_layer {
 
             bindings = <
-    &kp Q         &kp W       &kp E        &kp R      &kp T      &kp Y      &kp U      &kp I       &kp O       &kp P          
-    &hm LCTRL A   &hm LSHFT S &hm LALT D   &hm LGUI F &kp G      &kp H      &hm RGUI J &hm RALT K  &hm RSHFT L &td1           
-    &kp Z         &kp X       &kp C        &kp V      &kp B      &kp N      &kp M      &kp COMMA   &kp DOT     &hm RCTRL FSLH 
+    &kp Q         &kp W       &kp F        &kp P      &kp B      &kp J      &kp L      &kp U       &kp Y       &td1           
+    &hm LCTRL A   &hm LSHFT R &hm LALT S   &hm LGUI T &kp G      &kp M      &hm RGUI N &hm RALT E  &hm RSHFT I &kp O           
+    &kp Z         &kp X       &kp C        &kp D      &kp V      &kp K      &kp H      &kp COMMA   &kp DOT     &hm RCTRL FSLH 
                                                       &lt 1 TAB  &kp SPACE  &kp RET    &lt 2 BKSP 
             >;
         };
