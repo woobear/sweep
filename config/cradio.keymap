@@ -59,13 +59,33 @@ behaviors {
         compatible = "zmk,combos";
         combo_brace_left {
             timeout-ms = <50>;
-            key-positions = <2 3>;
+            key-positions = <12 13>;
             bindings = <&kp LEFT_BRACE>;
         };
         combo_brace_right {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <16 17>;
             bindings = <&kp RIGHT_BRACE>;
+        };
+        combo_bracket_left {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp LEFT_BRACKET>;
+        };
+        combo_bracket_right {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp RIGHT_BRACKET>;
+        };
+        combo_par_left {
+            timeout-ms = <50>;
+            key-positions = <22 23>;
+            bindings = <&kp LEFT_PARENTHESIS>;
+        };
+        combo_par_right {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
         };
     };
 conditional_layers {
