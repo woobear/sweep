@@ -61,13 +61,13 @@ behaviors {
             timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&kp LEFT_BRACE>;
-        }
+        };
         combo_brace_right {
             timeout-ms = <50>;
             key-positions = <6 7>;
             bindings = <&kp RIGHT_BRACE>;
-        }
-    }
+        };
+    };
 conditional_layers {
     compatible = "zmk,conditional-layers";
 
