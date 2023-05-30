@@ -40,13 +40,6 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    td1: tap_dance_1 {
-            compatible  = "zmk,behavior-tap-dance";
-        label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp SQT>, <&kp SEMI>;
-        };
     td0: tap_dance_0 {
             compatible  = "zmk,behavior-tap-dance";
         label = "TAP_DANCE_0";
@@ -86,6 +79,11 @@ behaviors {
             timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp RIGHT_PARENTHESIS>;
+        };
+        combo_semi {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp SEMI>;
         };
     };
 conditional_layers {
